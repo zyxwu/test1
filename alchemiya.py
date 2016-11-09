@@ -299,12 +299,6 @@ print sq
 # ps.rest['indices'] = 'email'
 # ps.rest['docs_per_page'] = DEFAULT_DOCS_PER_PAGE
 # ps.rest['max_column_width'] = DEFAULT_MAX_COLUMN_WIDTH
-#
-# print ps
+
+
 print '============='
-
-# db.session.add(sq)
-# db.session.commit()
-
-sq = SavedQuery.query.first()
-print sq
