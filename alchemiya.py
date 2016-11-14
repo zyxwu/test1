@@ -12,7 +12,7 @@ from flask_sqlalchemy import SQLAlchemy
 import hashlib
 
 
-DEFAULT_DOCS_PER_PAGE = 50                                  # количество выводимых документов на экран
+DEFAULT_DOCS_PER_PAGE = 60                                  # количество выводимых документов на экран
 DEFAULT_FIELDS = ['tags', 'comments']                   # и поля документа для вывода (по-умолчанию)
 DEFAULT_MAX_COLUMN_WIDTH = 50
 
